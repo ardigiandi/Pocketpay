@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/main.css" rel="stylesheet" />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- ini Navbar -->
@@ -35,20 +43,63 @@
     <!-- Ini Fill -->
     <div class="flex mx-auto">
       <div class="w-1/2 p-4 ml-12">
-        <h2 class="text-6xl my-20 font-bold w-[521px] h-[140px] text-[54px]">
+        <h2 class="text-6xl my-20 font-bold w-[521px] h-[90px] text-[54px]">
           Transfer money to loved ones instantly
         </h2>
-        <p class="w-[488px] h-[60px] text-[14px] ">
+        <p class="w-[488px] h-[60px] text-[14px]">
           Easily manage your money on-the-go with our e-wallet app. Safe and
           secure payments, transfer money to friends and family, and track your
           expenses all in one place. Download now and take control of your
           finances
         </p>
+        <div
+          class="bg-blue-700 hover:bg-blue-800 my-7 w-[155px] h-[46px] text-center rounded-md"
+        >
+          <button class="justify-center items-center mt-3 text-white">
+            Try It Free
+          </button>
+        </div>
+        <div>
+          <div>
+            <h4 class="font-bold">Availabel on</h4>
+          </div>
+          <div class="flex gap-3">
+            <button
+              class="bg-pink-500 hover:bg-pink-600 w-[182px] h-[60px] my-4 rounded-md flex text-center items-center"
+            >
+              <a href="">
+                <ion-icon
+                  name="logo-google-playstore"
+                  class="my-3 mx-2 w-[36px] h-[36px]"
+                ></ion-icon>
+              </a>
+              <div class="text-white">
+                <p class="text-[12px]">GET IT ON</p>
+                <span class="text-[20px]">Google Play</span>
+              </div>
+            </button>
+            <button
+              class="bg-pink-500 hover:bg-pink-600 w-[182px] h-[60px] my-4 rounded-md flex text-center items-center"
+            >
+              <a href="">
+                <ion-icon name="logo-apple" class="w-[36px] h-[36px] my-3 mx-2"></ion-icon>
+              </a>
+              <div class="text-white">
+                <p class="text-[12px]">Download on the</p>
+                <span class="text-[20px]">App Store</span>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
       <div class="w-1/2 my-16 mr-12">
         <img src="img/Card Visa.jpg" alt="" class="w-[621.3px] h-[535]" />
       </div>
     </div>
     <!-- Ini Akhir Fill -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>
