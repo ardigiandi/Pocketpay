@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/main.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <section>
+        <div class="flex mx-auto h-screen ">
+            <div class="w-1/2 bg-blue-600 items-center grid place-items-center">
+                <img src="img/pic.jpg" alt="" class="w-[369px] h-[440px] rounded-md">
+            </div>
+            <div class="w-1/2">
+                <h2 class="text-3xl font-bold mx-16 my-8 font-Archivo">
+                    Pocket<span class="text-blue-700">Pay</span>
+                </h2>
+                <p class="mx-10 font-Archivo">Sign in to securely access your funds and manage your transactions.
+                    With just a few taps, you can easily check your balance, send money
+                    to friends and family, pay bills, and more.</p>
+                    <form>
+                        <!-- Input Email -->
+                        <div class="mb-4 ">
+                          <label for="email" class="block text-gray-600 text-sm font-medium mb-2">Alamat Email</label>
+                          <input type="email" id="email" name="email" class="w-[440px] h-[53px] px-3 py-2 border " placeholder="you@example.com" required>
+                        </div>
+                  
+                        <!-- Tombol Masuk -->
+                        <button type="submit" class="w-[440px] h-[53px] bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Masuk</button>
+                      </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
