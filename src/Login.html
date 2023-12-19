@@ -1,42 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/main.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/main.css" rel="stylesheet" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section>
-        <div class="flex mx-auto h-screen ">
-            <div class="w-1/2 bg-blue-600 items-center grid place-items-center">
-                <img src="img/pic.jpg" alt="" class="w-[369px] h-[440px] rounded-md">
-            </div>
-            <div class="w-1/2">
-                <h2 class="text-3xl font-bold mx-16 my-8 font-Archivo">
-                    Pocket<span class="text-blue-700">Pay</span>
-                </h2>
-                <p class="mx-10 font-Archivo">Sign in to securely access your funds and manage your transactions.
-                    With just a few taps, you can easily check your balance, send money
-                    to friends and family, pay bills, and more.</p>
-                    <form>
-                        <!-- Input Email -->
-                        <div class="mb-4 ">
-                          <label for="email" class="block text-gray-600 text-sm font-medium mb-2">Alamat Email</label>
-                          <input type="email" id="email" name="email" class="w-[440px] h-[53px] px-3 py-2 border " placeholder="you@example.com" required>
-                        </div>
-                  
-                        <!-- Tombol Masuk -->
-                        <button type="submit" class="w-[440px] h-[53px] bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Masuk</button>
-                      </form>
-            </div>
+      <div class="flex mx-auto h-[907px] ">
+        <div class="w-1/2 bg-blue-600 items-center grid place-items-center">
+          <img
+            src="img/pic.jpg"
+            alt=""
+            class="w-[369px] h-[440px] rounded-md"
+          />
         </div>
+        <div class="w-1/2 mx-14">
+          <h2 class="text-3xl font-bold my-8 font-Archivo">
+            Pocket<span class="text-blue-700">Pay</span>
+          </h2>
+          <h2 class="text-2xl font-bold font-Archivo mt-24">
+            Welcome to our e-wallet!
+          </h2>
+          <p class="font-Archivo mt-6">
+            Creating an account with us is quick and easy. With just a few simple steps, you'll be able to securely manage your funds and enjoy all of the benefits of being a member.
+          </p>
+          <form class="my-6">
+            <!-- Input Email -->
+            <div class="mb-4">
+              <label
+                for="email"
+                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                >Full Name</label
+              >
+              <input
+                type="name"
+                id="name"
+                name="name"
+                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
+                placeholder="enter your name."
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="email"
+                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="password"
+                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
+                placeholder="Password"
+                required
+              />
+              <button
+                class="w-[440px] h-[44px] bg-blue-700 hover:bg-blue-800 mt-6 rounded-md"
+              >
+                <a href="" class="text-white">Create Your Account</a>
+              </button>
+              <div class="mt-6 w-[196px] h-[16px] mx-32">
+                <span class="flex gap-1">
+                  <h2>Don’t have account?</h2>
+                  <a href="" class="text-blue-700">Login</a>
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
