@@ -14,83 +14,90 @@
   </head>
   <body>
     <section>
-      <div class="flex mx-auto h-[907px] ">
-        <div class="w-1/2 bg-blue-600 items-center grid place-items-center">
-          <img
-            src="img/pic.jpg"
-            alt=""
-            class="w-[369px] h-[440px] rounded-md"
-          />
-        </div>
-        <div class="w-1/2 mx-14">
-          <h2 class="text-3xl font-bold my-8 font-Archivo">
-            Pocket<span class="text-blue-700">Pay</span>
-          </h2>
-          <h2 class="text-2xl font-bold font-Archivo mt-24">
-            Welcome to our e-wallet!
-          </h2>
-          <p class="font-Archivo mt-6">
-            Creating an account with us is quick and easy. With just a few simple steps, you'll be able to securely manage your funds and enjoy all of the benefits of being a member.
-          </p>
-          <form class="my-6">
-            <!-- Input Email -->
-            <div class="mb-4">
-              <label
-                for="email"
-                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
-                >Full Name</label
-              >
-              <input
-                type="name"
-                id="name"
-                name="name"
-                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
-                placeholder="enter your name."
-                required
-              />
+      <div class="">
+        <div class="grid grid-cols-12 h-[907px]">
+          <div class="col-span-12 lg:col-span-6 bg-blue-700 hidden md:block">
+            <img
+              src="img/pic.jpg"
+              alt=""
+              class="w-[369px] h-[440px] mx-auto my-[249px]"
+            />
+          </div>
+          <div class="col-span-12 lg:col-span-6 ">
+            <div class="font-bold font-Archivo text-xl sm:text-[36px ]">
+              <h2 class="mx-4 md:mx-12 my-7">
+                Pocket<span class="text-blue-600">Pay</span>
+              </h2>
             </div>
-            <div class="mb-4">
-              <label
-                for="email"
-                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
-                >Email</label
+            <div class="md:mt-20">
+              <h2
+                class="font-Archivo font-bold mx-4 md:mx-12 text-sm sm:text-[25px] "
               >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
-                placeholder="Email Address"
-                required
-              />
+                Welcome to our e-wallet!
+              </h2>
+              <p
+                class="font-Archivo mx-4 md:mx-12 text-sm md:text mt-3 flex-wrap"
+              >
+                Creating an account with us is quick and easy. With just a few
+                simple steps, you'll be able to securely manage your funds and
+                enjoy all of the benefits of being a member.
+              </p>
             </div>
-            <div class="mb-4">
-              <label
-                for="password"
-                class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
-                >Password</label
-              >
-              <input
-                type="password"
-                id="password"
-                name="password"
-                class="w-[440px] h-[53px] px-3 py-2 border-2 rounded-md"
-                placeholder="Password"
-                required
-              />
-              <button
-                class="w-[440px] h-[44px] bg-blue-700 hover:bg-blue-800 mt-6 rounded-md"
-              >
-                <a href="" class="text-white">Create Your Account</a>
-              </button>
-              <div class="mt-6 w-[196px] h-[16px] mx-32">
-                <span class="flex gap-1">
-                  <h2>Don’t have account?</h2>
-                  <a href="" class="text-blue-700">Login</a>
-                </span>
-              </div>
+            <div class="mx-4 md:mx-12 my-6">
+              <form class="my-6">
+                <!-- Input Email -->
+                <div class="mb-4">
+                  <label
+                    for="email"
+                    class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                    >Full Name</label
+                  >
+                  <input
+                    type="name"
+                    id="name"
+                    name="name"
+                    class="w-[346px] md:w-[440px] h-[px] px-3 py-2 border-2 rounded-md"
+                    placeholder="enter your name."
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label
+                    for="email"
+                    class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                    >Email</label
+                  >
+                  <input
+                    type="name"
+                    id="name"
+                    name="name"
+                    class="w-[346px] md:w-[440px] h-[px] px-3 py-2 border-2 rounded-md"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label
+                    for="email"
+                    class="block text-gray-600 text-sm font-medium mb-2 font-Archivo"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    id="name"
+                    name="name"
+                    class="w-[346px] md:w-[440px] h-[px] px-3 py-2 border-2 rounded-md"
+                    placeholder="••••••••••••"
+                    required
+                  />
+                </div>
+                <div>
+                    <button class="bg-blue-600 text-white w-[346px] h-[44px] md:w-[440px] rounded-md">Create Your Account</button>
+                    <p class="text-center mt-3">Don’t have account? <a href=""><span class="text-blue-600">Login</span></a></p>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </section>
